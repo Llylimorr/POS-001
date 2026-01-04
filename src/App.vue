@@ -1,9 +1,9 @@
 <script setup>
-import MianLayout from './components/MianLayout.vue'
+import MainLayout from './components/MainLayout.vue'
 </script>
 
 <template>
-  <MianLayout>
+  <MainLayout>
     <router-view />
-  </MianLayout>
+  </MainLayout>
 </template>
