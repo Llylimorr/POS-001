@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header -->
-    <h2 class="text-2xl font-semibold text-gray-800 mb-6">POS Screen</h2>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-6">POS Screen o</h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- PRODUCTS LIST -->
