@@ -56,11 +56,11 @@ const stats = [
     icon: '👤',
     bg: 'bg-purple-600'
   }
-//    ,{
-//     label: 'Stock Value',
-//     value: '$5,400', // Example value
-//     icon: '📈',
-//     bg: 'bg-orange-600' 
-//   }
+   ,{
+    label: 'Stock Value',
+    value: '$5,400', // Example value
+    icon: '📈',
+    bg: 'bg-orange-600' 
+  }
 ]
 </script>
