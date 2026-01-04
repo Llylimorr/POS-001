@@ -40,19 +40,19 @@
 const stats = [
   {
     label: 'Total Products',
-    value: '0',
+    value: '3',
     icon: '📦',
     bg: 'bg-blue-600'
   },
   {
     label: 'Today Sales',
-    value: '$0',
+    value: '$200',
     icon: '💰',
     bg: 'bg-green-600'
   },
   {
     label: 'Users',
-    value: '0',
+    value: '2',
     icon: '👤',
     bg: 'bg-purple-600'
   }
