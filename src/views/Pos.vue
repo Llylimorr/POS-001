@@ -81,7 +81,8 @@ import { ref, computed } from 'vue'
 const products = ref([
   { id: 1, name: 'Coffee', price: 2.5, stock: 50 },
   { id: 2, name: 'Milk Tea', price: 3, stock: 30 },
-  { id: 3, name: 'Green Tea', price: 2, stock: 20 }
+  { id: 3, name: 'Green Tea', price: 2, stock: 20 },
+  
 ])
 
 const cart = ref([])
