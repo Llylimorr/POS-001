@@ -11,7 +11,13 @@ const routes = [
     path:'/products',
     name:'Product',
     component:()=> import('../views/Product.vue')
-  }
+  },
+  {
+    path:'/pos',
+    name:'POS',
+    component:()=> import('../views/POS.vue')
+  },
+  
 ]
 const router = createRouter({
   history: createWebHistory(),
