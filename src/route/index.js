@@ -13,10 +13,11 @@ const routes = [
     component:()=> import('../views/Product.vue')
   },
   {
-    path: '/pos',
-    name: 'Pos',
-    component: ()=> import('../views/Pos.vue')
+    path:'/pos',
+    name:'Pos',
+    component:()=> import('../views/Product.vue')
   }
+  
 ]
 const router = createRouter({
   history: createWebHistory(),
