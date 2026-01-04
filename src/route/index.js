@@ -3,7 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    
+    path:'/products',
+    name:'Product',
+    component:()=> import('../views/Product.vue')
   }
 ]
 const router = createRouter({
