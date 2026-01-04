@@ -68,12 +68,12 @@
 </template>
 
 <style scoped>
-.nav-item {
+/* .nav-item {
   @apply flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition font-medium;
 }
 
 .nav-active {
   @apply bg-blue-600 text-white hover:bg-blue-600 hover:text-white;
-}
+} */
 </style>
 e>
