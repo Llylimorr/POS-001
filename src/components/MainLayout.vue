@@ -9,8 +9,9 @@
       <nav class="flex-1 px-4 py-6 space-y-2">
         <router-link
           to="/"
-          class="nav-item"
-          exact-active-class="nav-active"
+          class="flex items-center gap-3 px-4 py-2 rounded-lg font-medium
+                 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition"
+          exact-active-class="bg-blue-600 text-white"
         >
           <span>📊</span>
           <span>Dashboard</span>
@@ -18,8 +19,9 @@
 
         <router-link
           to="/products"
-          class="nav-item"
-          exact-active-class="nav-active"
+          class="flex items-center gap-3 px-4 py-2 rounded-lg font-medium
+                 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition"
+          exact-active-class="bg-blue-600 text-white"
         >
           <span>📦</span>
           <span>Products</span>
@@ -27,8 +29,9 @@
 
         <router-link
           to="/pos"
-          class="nav-item"
-          exact-active-class="nav-active"
+          class="flex items-center gap-3 px-4 py-2 rounded-lg font-medium
+                 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition"
+          exact-active-class="bg-blue-600 text-white"
         >
           <span>💳</span>
           <span>POS</span>
@@ -72,13 +75,3 @@ export default {
   name: "MainLayout"
 }
 </script>
-
-<style scoped>
-.nav-item {
-  @apply flex items-center gap-3 px-4 py-2 rounded-lg text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition font-medium;
-}
-
-.nav-active {
-  @apply bg-blue-600 text-white hover:bg-blue-600 hover:text-white;
-}
-</style>
